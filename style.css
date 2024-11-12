@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+header {
+    background-color: #81C784;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #2E7D32;
+    font-size: 2em;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #81C784;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.gallery-item {
+    display: inline-block;
+    margin: 1rem;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4caf4f;
+    color: white;
+}
+
+td {
+    color: #2E7D32;
+}
+
+.outline {
+    border: 1px solid #2E7D32;
+    color: #2E7D32;
+    background-color: transparent;
+}
+
+
+#about-intro {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+#about-intro p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#mission-vision {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.vision-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.mission, .vision {
+    flex: 1;
+    min-width: 250px;
+    max-width: 400px;
+    background-color: #F1F8E9;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.logo img {
+    display: inline;
+    width: 3rem;
+}
